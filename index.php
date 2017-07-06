@@ -12,29 +12,20 @@
 	<!-- Fonts Google Roboto & Glego, Glyphicons, Font Awesome, AND Icons  -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,600,700,800,900|Roboto:100,300,400,400i,500,700,900" rel="stylesheet"> 
 
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
 	<script src="https://use.fontawesome.com/b771a1e404.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" href="style.css">
 
-	<link rel="stylesheet" href="css/jquery-ui.min.css">
-	<link rel="stylesheet" href="css/jquery-ui.theme.css">
-	<link rel="stylesheet" href="css/jquery.mfp.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<link rel="stylesheet" href="jquery-ui.theme.css">
+	<link rel="stylesheet" href="jquery.mfp.css">
+	<link rel="stylesheet" href="owl.carousel.min.css">
 
 	
 
 	<body>
-
-	<script type="text/javascript">
-		var date= new Date()
-		document.body.innerHTML="<h1>I am going to delhi on "+date.getDate()+ "/" +(date.getMonth()+1)+ "/" +date.getFullYear()+"</h1>"
-	</script>
-
-	<input type="button" value="Click me!" name="abc" onClick="alerting()">
-
-	
 
 		
 		 <header class="header affix-top" id="header">
@@ -67,7 +58,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<a href="index.html" class="navbar-brand clearfix">
-								<img src="images/original-logo.jpg" alt=""/>
+								<img src="original-logo.jpg" alt=""/>
 							</a>
 						</div>
 						<div class="navbar-collapse navbar-right collapse" style="height: 1px;">
@@ -89,21 +80,21 @@
 	      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	        <div class="carousel-inner" role="listbox">
 	          <div class="item active">
-	            <img class="rsImg rsMainSlideImage" src="images/banner-img1.jpg" alt="Banner Image">
+	            <img class="rsImg rsMainSlideImage" src="banner-img1.jpg" alt="Banner Image">
 	            <div class="carousel-caption">
 	              <h1 class="text-center wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">WORLD WIDE TRANSPORT</h1>
 	              <h1 class="text-center wow fadeInDown animated" data-wow-offset="10" data-wow-duration="1.5s">Within 24 Hours</h1>
 	            </div>
 	          </div>
 	          <div class="item">
-	            <img class="rsImg rsMainSlideImage" src="images/banner-img2.jpg" alt="Banner Image">
+	            <img class="rsImg rsMainSlideImage" src="banner-img2.jpg" alt="Banner Image">
 	            <div class="carousel-caption">
 	              <h1 class="text-center">WORLD WIDE TRANSPORT</h1>
 	              <h1 class="text-center">Within 24 Hours</h1>
 	            </div>
 	          </div>
 	          <div class="item">
-	            <img class="rsImg rsMainSlideImage" src="images/banner-img3.jpg" alt="Banner Image">
+	            <img class="rsImg rsMainSlideImage" src="banner-img3.jpg" alt="Banner Image">
 	            <div class="carousel-caption">
 	             <h1 class="text-center">WORLD WIDE TRANSPORT</h1>
 	              <h1 class="text-center">Within 24 Hours</h1>
@@ -126,7 +117,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img src="images/security.png" alt="">
+								<img src="security.png" alt="">
 								<h2>Secure</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</a>
@@ -137,7 +128,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img src="images/fast-delivery.png" alt="">
+								<img src="fast-delivery.png" alt="">
 								<h2>Fase Delivery</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</a>
@@ -148,7 +139,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img src="images/location.png" alt="">
+								<img src="location.png" alt="">
 								<h2>Secure</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</a>
@@ -159,7 +150,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img src="images/trophy.png" alt="">
+								<img src="trophy.png" alt="">
 								<h2>Secure</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</a>
@@ -183,7 +174,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img class="img-responsive" src="images/service-img1.jpg" alt="">
+								<img class="img-responsive" src="service-img1.jpg" alt="">
 								<h2>Cargo</h2>
 								<p>Transport specializes in the safe transportation of office, computer, and medical related equipment. From a single laptop to an...</p>
 							</a>
@@ -194,7 +185,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img class="img-responsive" src="images/service-img2.jpg" alt="">
+								<img class="img-responsive" src="service-img2.jpg" alt="">
 								<h2>Logistic Services</h2>
 								<p>Transport offers a host of logistic management services and supply chain solutions. We provide innovative solutions with the best...</p>
 							</a>
@@ -205,7 +196,7 @@
 					<div class="service-col">
 						<div class="service-icon">
 							<a href="#">
-								<img class="img-responsive" src="images/service-img3.jpg" alt="">
+								<img class="img-responsive" src="service-img3.jpg" alt="">
 								<h2>Storage</h2>
 								<p>Transport has access to over a ten million square feet of storage space in strategic partnership locations throughout the...</p>
 							</a>
@@ -237,7 +228,7 @@
                                     	<div class="row">
                                     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
                                             <div class="client-detail">
-                                            	<div class="client-img"><img src="images/testimonial-img.jpg" alt=""/></div>
+                                            	<!-- <div class="client-img"><img src="testimonial-img.jpg" alt=""/></div> -->
                                             	<h4>John Doe</h4>
                                             	<h6>CEO, Company Name</h6>
                                             </div>
@@ -250,7 +241,7 @@
                                         <div class="row">
                                         	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                                             <div class="client-detail">
-                                            	<div class="client-img"><img src="images/testimonial-img.jpg" alt=""/></div>
+                                            	<!-- <div class="client-img"><img src="testimonial-img.jpg" alt=""/></div> -->
                                             	<h4>John Doe</h4>
                                             	<h6>CEO, Company Name</h6>
                                             </div>                                           
@@ -262,7 +253,7 @@
                                         <div class="row">
                                         	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
                                             <div class="client-detail">
-                                            	<div class="client-img"><img src="images/testimonial-img.jpg" alt=""/></div>
+                                            	<!-- <div class="client-img"><img src="testimonial-img.jpg" alt=""/></div> -->
                                             	<h4>John Doe</h4>
                                             	<h6>CEO, Company Name</h6>
                                             </div>                                          
@@ -398,22 +389,22 @@
 	</footer> 
 	
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/wow.min.js"></script>
-	<script type="text/javascript" src="js/modernizr-2.7.1.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="wow.min.js"></script>
+	<script type="text/javascript" src="modernizr-2.7.1.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPs_H3SSavr4AjVO_HPUUcplIhamniJzQ" type="text/javascript"></script>
-	<script type="text/javascript" src="js/devsolution.scripts.js"></script>
-	<script type="text/javascript" src="js/devsolution.plugins.js"></script>
-	<script type="text/javascript" src="js/devsolution.setup.js"></script>
-	<script type="text/javascript" src="js/jquery.mfp-0.9.9.min.js"></script>
-	<script type="text/javascript" src="js/gmap3.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/jquery.form.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="devsolution.scripts.js"></script>
+	<script type="text/javascript" src="devsolution.plugins.js"></script>
+	<script type="text/javascript" src="devsolution.setup.js"></script>
+	<script type="text/javascript" src="jquery.mfp-0.9.9.min.js"></script>
+	<script type="text/javascript" src="gmap3.min.js"></script>
+	<script type="text/javascript" src="owl.carousel.min.js"></script>
+	<script type="text/javascript" src="jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="jquery.form.min.js"></script>
+	<script type="text/javascript" src="jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="jquery.themepunch.revolution.min.js"></script>
 	
 	<script>
 	  $('#carousel-example-generic').carousel({
